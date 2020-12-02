@@ -51,7 +51,6 @@ client.on('guildMemberAdd', guildMember => {
 client.on('message',message => {
     if(!message.content.startsWith(prefix) || message.author.bot) return
     currency.add(message.author.id, 1);
-    
 	const input = message.content.slice(prefix.length).trim();
 	if (!input.length) return;
 	const [, command, commandArgs] = input.match(/(\w+)\s*([\s\S]*)/);
@@ -82,4 +81,4 @@ client.on('message',message => {
 
 
 
-client.login('NzQyOTI3MDk1Nzk3MTIxMDM0.XzNOxg.D3WEQv4_CS7D90Nq9TT9WMcTMy0')
+client.login('')
