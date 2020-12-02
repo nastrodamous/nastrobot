@@ -1,7 +1,7 @@
 module.exports = {
-    name: 'aboutme',
-    description: "gets my resume",
+    name: 'aboutus',
+    description: "get our wiki",
     execute(message, args) {
-        message.channel.send('resume')
+        message.channel.send('wiki')
     }
 }

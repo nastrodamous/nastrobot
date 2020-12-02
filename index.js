@@ -59,7 +59,7 @@ client.on('message',message => {
     if (command === 'ping') {
         client.commands.get('ping').execute(message,args);
     } else if(command === 'youtube') {
-        client.commands.get('aboutme').execute(message,args);
+        client.commands.get('aboutus').execute(message,args);
     } else if(command === 'youtube') {
         client.commands.get('mute').execute(message,args);
     } else if(command === 'poll') {
@@ -82,3 +82,4 @@ client.on('message',message => {
 
 
 client.login('')
+
